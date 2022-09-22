@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lebron James</title>
+  <script src="https://kit.fontawesome.com/2fe94c3b72.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div>
+    <!--Header-->
+    <header class="bg-purple-800/50 p-3">
+      <nav class="nav justify-between p-2 items-center">
+        <div class="flex">
+          <a href="index.html">
+            <img src="/public/img/logo-lebron-blanco.png" class="w-24 mr-10" alt="logo-nba">
+          </a>
+          <ul class="navigators content-0">
+            <li class="px-1 pt-4">
+              <a href="/public/Trayectoria.html"
+                class="trayectoria nav-item border-2 rounded-2xl p-3 border-indigo-600">Trayectoria</a>
+            </li>
+            <li class="px-1 pt-4">
+              <a href="/public/Logros.html" class="nav-item border-2 rounded-2xl p-3 border-indigo-600">Logros</a>
+            </li>
+            <li class="px-1 pt-4">
+              <a href="/public/Estadisticas.html"
+                class="nav-item border-2 rounded-2xl p-3 border-indigo-600">Estadisticas</a>
+            </li>
+            <li class="px-1 pt-4">
+              <a href="/public/Contacto.html" class="nav-item border-2 rounded-2xl p-3 border-indigo-600">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button class="bars" href="">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+
+    </header>
+    <!--Contenido-->
+
+    <form name="contacto" netlify action="" class="content bg-stone-900/80 contact- text-center m-auto mb-1 py-20">
+      <div class="flex justify-center m-auto">
+        <div class="p-4 mb-3">
+          <label class="border-b-2 border-b-yellow-500" for="">Nombre</label>
+          <input class="w-11/12 p-2 mt-2 rounded-lg" class="" type="text" placeholder="Nombre">
+        </div>
+        <div class="p-4 mb-3">
+          <label class="border-b-2 border-b-yellow-500" for="">Apellido</label>
+          <input class="w-11/12 p-2 mt-2 rounded-lg" type="text" placeholder="Apellido">
+        </div>
+      </div>
+      <div class="flex justify-center m-auto">
+        <div class="p-4 mb-3">
+          <label class="border-b-2 border-b-yellow-500" for="">Ingrese su Email</label>
+          <input class="w-11/12 p-2 mt-2 rounded-lg" type="text" placeholder="Ingrese su Email">
+        </div>
+        <div class="p-4 mb-3">
+          <label class="border-b-2 border-b-yellow-500" for="">Número de telefono</label>
+          <input class="w-11/12 p-2 mt-2 rounded-lg" type="text" placeholder="telefono">
+        </div>
+      </div>
+      <div class="p-4 m-5">
+        <label class="pb-2 m-auto p-auto" for="">Ingrese un comentario</label>
+        <textarea class="w-full form-control pl-5 pr-40 py-5 pb-20 rounded-lg mt-3" id="exampleFormControlTextarea1"
+          cols="30" rows="3" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+      <div class=" mx-20 border-2">
+        <button type="submit"
+          class="btn btn-primary btn-outline-light w-100 w-full p-3 hover:bg-slate-800">Enviar</button>
+      </div>
+    </form>
+
+    <!--Footer-->
+    <footer class=" flex justify-between p-4 bg-purple-900/80">
+      <div class="contact-1">
+        <a href=""><img class="w-24 mr-10" src="/public/img/logo-lebron-blanco.png" alt="Lebron"></a>
+        <h4 class="italic">© 2022 dev: Jordi Lopez. todos los derechos reservados</h4>
+      </div>
+      <div class="contact-2">
+        <h4 class="text-xl">Info. de contacto</h4>
+        <a class="underline underline-offset-1" href="">Contacto</a>
+        <p class="font-bold">+51 969-310-878</p>
+        <p class="font-bold">Email: jordialonso123456789@hotmail.com</p>
+        <p class="font-bold">Ubicacion: Lima,Perú</p>
+      </div>
+      <div class="contact-3 mr-4">
+        <h4 class="text-xl">Redes Sociales</h4>
+        <div class="flex flex-col text-center">
+          <a class="m-1" href="https://www.instagram.com/jordi_lopez7/" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a class="m-1" href="https://github.com/JordiAlonsoLS" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a class="m-1" href="https://jordi-lopez.netlify.app/" target="_blank"><i class="fa-solid fa-folder"></i></a>
+        </div>
+      </div>
+      <div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="/main.js"></script>
+
+</html>

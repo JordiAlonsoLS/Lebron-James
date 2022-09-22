@@ -1,0 +1,111 @@
+@import "Variables.scss";
+@import "Utils.scss";
+
+* {
+  @include reset-pm();
+  box-sizing: border-box;
+  color: $color-4;
+}
+
+body {
+  background-image: url(/public/img/NBAbubblefeatured.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+}
+.bars {
+  display: none;
+}
+
+.content {
+  max-width: size(425);
+  height: 50%;
+}
+
+.content-0 {
+  display: flex;
+}
+
+.content-2 {
+  display: flex;
+}
+
+.content-3 {
+  height: size(290);
+  padding-top: size(40);
+}
+
+.nav-item:hover {
+  background-color: $color-5;
+  border-style: hidden;
+}
+
+.figure-trayectoria {
+  padding: 0px 0px 0px 80px;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .bars {
+    display: flex;
+    font-size: 24px;
+  }
+  .content-2 {
+    display: inline-block;
+    padding: 0;
+  }
+  .image {
+    width: 50%;
+    margin: auto;
+  }
+  .content-3 {
+    padding: 0 20px;
+  }
+
+  .contact-2 {
+    display: none;
+  }
+
+  .navigators {
+    display: none;
+    left: 100%;
+  }
+  .flex-grow-active {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #2c3e50;
+    position: fixed;
+    left: 0;
+    top: size(40);
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    height: calc(100% - 400px);
+    overflow-y: auto;
+    opacity: 0.9;
+    transition: left 0.3s;
+  }
+
+  .navigators li {
+    padding-bottom: 30px;
+  }
+
+  /*Trayectoria*/
+
+  .trayectoria-content {
+    text-align: center;
+  }
+  .image-trayectoria {
+    padding-top: 20px;
+    margin: auto;
+  }
+  .figure-trayectoria {
+    padding: 0px 0px 20px 20px;
+  }
+}
